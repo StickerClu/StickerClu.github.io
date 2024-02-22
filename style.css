@@ -8,11 +8,13 @@
         }
         header {
             background-color: #333;
-            color: white;
+            color: #FFFFFF;
             padding: 10px 20px;
             text-align: center;
         }
         .container {
+                color: #FFFFFF;
+                margin-top:20px;
             max-width: 800px;
             margin: auto;
             padding: 20px;
