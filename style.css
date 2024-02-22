@@ -1,93 +1,13 @@
-.waveRapper{
-   overflow:hidden;
-            position:absolute;
-            left:0;
-            right:0;
-            bottom:0;
-            top:0;
-            margin:auto;
-}
-
-.waveWrapperInner {
-            position:absolute;
-            width:100%;
-            overflow:hidden;
-            height:100%;
-            bottom:-1px;
-            background-image:linear-gradient(to top,#86377b 20%, #27273c 80%);
-}
-
-.bgTop{
-            z-index: 15;
-            opacity:0.5;
-}
-
-.bgMiddle{
-            z-index:10;
-            opacity:0.75;
-}
-
-.bgBottom{
-            z-index:5;
-}
-
-.wave{
-            position:absolute;
-            left:0;
-            width:200%;
-            height:100%;
-            background-repeat:repeat no-repeat;
-            background-position: 0 bottom;
-            transform-origin:center bottom;
-}
-
-.waveTop{
-           background-size: 50% 100px;
-}
-
-.waveAnimation .waveTop{
-            animation:move-wave 3s;
-            -webkit-animation: move-wave 3s;
-            -webkit-animation-delay:1s;
-            animation-delay:3s;
-}
-
-.waveMiddle{
-            backgound-size:50% 120px;
-}
-
-.waveAnimation .waveMiddle{
-            animation: move_wave 10s linear infinite;
-}
-
-waveBottom{
-            backgound-size:50% 100px;
-}
-
-.waveAnimation .waveBottom{
-            animation: move_wave 15s linear infinite;
-}
 
 
-@keyframes move_wave{
-            0% {
-                        transform: translateX(0) translateY(0) scale(1)
-            }
-            50%{
-                        transform: translateX(-25%) translateY(0) scale(0.55)
-            100%{
-                        transform: translateX(-50%) translateY(0) scale(1)
-            }
-}
-
-
-body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to right, #3498db, #e74c3c); /* Replace these colors with your desired ones */
         }
         header {
-           background-color: #333; 
+            background-color: #333;
             color: white;
             padding: 10px 20px;
             text-align: center;
