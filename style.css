@@ -1,16 +1,13 @@
-
-
-
 body {
             font-family: Arial, sans-serif;
-          height:100%; width:100%;
-            background: linear-gradient(#3498db, #e74c3c); /* Replace these colors with your desired ones */
-            
+            margin: 0;
+            padding: 0;
+             background: linear-gradient(#3498db, #e74c3c);
         }
         header {
-           background-color: black;
+            background-color: #333;
             color: white;
-            margin: 10px ;
+            padding: 10px 10px;
             text-align: center;
         }
         .container {
@@ -31,3 +28,4 @@ body {
         .payment-info p {
             margin: 5px 0;
         }
+
